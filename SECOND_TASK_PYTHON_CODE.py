@@ -41,11 +41,6 @@ print(df.shape)
 #we selected the graphic style used to plot the data
 plt.style.use('seaborn') 
 
-#Here we exctracted general informations, such as avarage, mediam,
-#max and minimum#for each city from our dataset. We get a dataframe
-#for each city, with the informations relative to each 
-#value(temperature, pressure, precipitation, etc)
-
 plt.figure (figsize=(10,5))
 
 #we created a list of color, one for each city
